@@ -249,6 +249,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
+
 .mobile-nav {
   position: fixed;
   top: 55px;
@@ -638,6 +640,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  font-family: Times New Roman;
 }
 
 .why-us .box span {
@@ -645,6 +648,7 @@ section {
   font-size: 28px;
   font-weight: 700;
   color: #ffcf88;
+  font-family: Times New Roman;
 }
 
 .why-us .box h4 {
@@ -653,6 +657,7 @@ section {
   padding: 0;
   margin: 20px 0;
   color: #6c665c;
+  font-family: Times New Roman;
 }
 
 .why-us .box p {
@@ -660,16 +665,18 @@ section {
   font-size: 15px;
   margin: 0;
   padding: 0;
+  
 }
 
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #5161ce;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
+  font-family: Times New Roman;
 }
 
 
@@ -759,16 +766,7 @@ section {
   border: 0;
 }
 
-.specials .nav-link {
-  border: 0;
-  padding: 12px 15px 12px 0;
-  transition: 0.3s;
-  color: #433f39;
-  border-radius: 0;
-  border-right: 2px solid #e8e7e4;
-  font-weight: 600;
-  font-size: 15px;
-}
+
 
 .specials .nav-link:hover {
   color: #ffb03b;
@@ -1221,12 +1219,16 @@ section {
   margin: 0 0 12px 0;
 }
 
+#googleMap{
+	margin
+}
+
 .foot_img{
-	margin-left: 25%;
+	margin-left: 10%;
 }
 
 #footer .social-links {
-	margin-left: 200px;
+	margin-left: -313px;
   
 }
 
@@ -1326,17 +1328,17 @@ body{background-color:#eee;}
 }
 #generic_price_table .generic_content .generic_feature_list ul li:hover{
     background-color: #E4E4E4;
-    border-left: 5px solid #2ECC71;
+    border-left: 5px solid #5161ce;
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-    border: 1px solid #2ECC71; 
-    color: #2ECC71;
+    border: 1px solid #5161ce; 
+    color: #5161ce;
 } 
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-    border-color: #2ECC71 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #2ECC71;
+    border-color: #5161ce rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #5161ce;
     color: #fff;
 }
 
@@ -1347,7 +1349,7 @@ body{background-color:#eee;}
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-    background-color: #2ECC71;
+    background-color: #5161ce;
     color: #fff;
 } 
 #generic_price_table{
@@ -1565,7 +1567,7 @@ body{background-color:#eee;}
     transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .emerald{
-    background: #2ECC71;
+    background: #5161ce;
     transition: all 0.3s ease-in-out 0s;
 }
 #generic_price_table_home .grey{
@@ -2146,7 +2148,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
-  height: 12px;
+  height: 6px;
   border-radius: 50%;
   background-color: #eff2f8 !important;
 }
@@ -2238,6 +2240,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #515f7d;
   margin-bottom: 50px;
   font-size: 20px;
+  font-family: "Times New Roman";
 }
 
 #hero .download-btn {
@@ -2789,4 +2792,89 @@ i {
     bottom: -25px;
     left: -25px;
   }
+}
+
+
+
+
+
+
+/* Team Section
+--------------------------------*/
+#team {
+	
+	background: #fff;
+  padding: 60px 0;
+/*background: url("../img/bg1.jpeg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  position: relative;*/
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #000;
+  position: relative;
+}
+
+#team .member .member-info {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+#team .member .member-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+
+#team .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#team .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#team .member .social a:hover {
+  color: #18d26e;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
 }
