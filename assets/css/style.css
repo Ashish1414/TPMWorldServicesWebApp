@@ -45,26 +45,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#topbar {
-  padding: 0;
-  font-size: 15px;
-  height: 50px;
-  transition: all 0.5s;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#topbar.topbar-scrolled {
-  top: -50px;
-}
-
-#topbar i {
-  color: #ffb03b;
-}
-
-#topbar i + i {
-  margin-left: 15px;
-}
-
 
 /*#header {
   top: 50px;
@@ -230,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
-/*.mobile-nav-toggle {
+.mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 15px;
@@ -355,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
-}*/
+}
 
 
 #hero {
@@ -679,7 +659,7 @@ section {
   font-family: Times New Roman;
 }
 
-
+/*
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -755,7 +735,7 @@ section {
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
   color: #948c81;
-}
+}*/
 
 
 .specials {
@@ -808,7 +788,7 @@ section {
   }
 }
 
-
+/*
 .events {
   background: url(../img/events-bg.jpg) center center no-repeat;
   background-size: cover;
@@ -1043,7 +1023,7 @@ section {
     width: 80%;
   }
 }
-
+*/
 
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1224,12 +1204,14 @@ section {
 }
 
 .foot_img{
-	margin-left: 10%;
+	margin-left: 30%;
+	margin-top: -12%;
 	
 }
 
 #footer .social-links {
 	margin-left: -313px;
+	margin-top: 5%;
 
   
 }
@@ -1274,11 +1256,7 @@ section {
   transform: rotateY(180deg);
 }
 
-HTML CSSResult
-EDIT ON
-/* ======================== */
-/*   Syed Sahar Ali Raza    */
-/* ======================== */
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
@@ -1950,7 +1928,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: rgba(0, 0, 0, 0.85);
-  border-bottom:#5161ce ;
+  border-bottom:1px solid rgba(12, 11, 9, 0.6); ;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -1975,7 +1953,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #5161ce;
 }
 
 #header .logo img {
@@ -2006,14 +1984,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #5161ce;
   transition: 0.3s;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5161ce;
+  color: orange;
 }
 
 .nav-menu .book-a-table a {
@@ -2111,7 +2089,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
+/*.mobile-nav-toggle {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -2255,7 +2233,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
+*/
 
 #topbar {
   padding: 0;
@@ -2620,7 +2598,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.mobile-nav-toggle {
+/*.mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 22px;
@@ -2725,7 +2703,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
+*/
 section {
   padding: 60px 0;
   overflow: hidden;
